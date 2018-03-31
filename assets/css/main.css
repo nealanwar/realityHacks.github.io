@@ -155,8 +155,12 @@
 	background-attachment: fixed;
 }
 
-#invisiblediv{
+#invisiblediv {
 	opacity: 0;
+}
+
+#opaquediv {
+	opacity: 1;
 }
 
 /*
