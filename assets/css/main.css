@@ -152,6 +152,7 @@
 
 #background {
 	background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+	background-attachment: fixed;
 }
 
 /*
@@ -1062,7 +1063,7 @@
 	#signup-form {
 		z-index: 1;
 		font-family: "Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif;
-		margin: 0 auto 5% auto;
+		margin: 0 auto;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
