@@ -1218,6 +1218,45 @@
   height: 100%;
 }
 
+#mail {
+	font:14px Helvetica,Arial,sans-serif;
+	width:100%;
+	margin: 0 50%;
+	transform: translate(-13%, 0%);
+}
+
+#list_title {
+	bottom: -5%;
+}
+
+#email {
+	width: 20%;
+	bottom: 10%;
+	display: inline;
+}
+
+#email:focus {
+	border: 1px solid #C64E54;
+}
+
+#button_field {
+	flex: 1;
+	display: -moz-flex;
+display: -webkit-flex;
+display: -ms-flex;
+display: flex;
+position: relative;
+}
+
+#subscribe {
+	background: #C64E54;
+	margin: 0 1%;
+}
+
+#subscribe:hover {
+	background: #C60F54;
+}
+
 #logo {
 	width: 20%;
 	margin: 0 auto;
